@@ -1,0 +1,36 @@
+#carrousel{
+    border: solid;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+.slide{
+    position: absolute;
+    top: 0;
+    top:0;
+    width: 500px;
+    height: 200PX;
+}
+.titre{
+    color: blue;
+    height: 5px;
+    position: absolute;
+}
+.navigation{
+    position: absolute;
+    bottom: 38px;
+    right: 5px
+}
+.navigation span{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.navigation span:hover,.navigation span.active{
+    background-color:white;
+    color:black;
+    padding: 40px 40px;
+
+}
